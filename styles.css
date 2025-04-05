@@ -1,0 +1,43 @@
+html {
+    height: 0%;
+    width: 0%;
+    background-color: #1d292c;
+}
+body {
+    margin: 0;
+    max-height: 0%;
+    height: 0%;
+    overflow: hidden;
+    background-color: #1d292c;
+    font-family: Helvetica, arial, sans-serif;
+    position: relative;
+    width: 0%;
+
+    -webkit-tap-highlight-color: transparent;
+}
+
+#application-canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#application-canvas.fill-mode-NONE {
+    margin: auto;
+}
+#application-canvas.fill-mode-KEEP_ASPECT {
+    width: 0%;
+    height: auto;
+    margin: 0;
+}
+#application-canvas.fill-mode-FILL_WINDOW {
+    width: 0%;
+    height: 0%;
+    margin: 0;
+}
+
+canvas:focus {
+    outline: none;
+}
